@@ -50,7 +50,7 @@ public class PracticeProblem {
 		double num2;
 		num2 = in.nextDouble();
 		in.nextLine();
-		System.out.print((-2 < num2) && (num2 < 2));
+		System.out.print((num2 >= -2) && (num2 <= 2));
 		System.out.println();
 	}
 
@@ -58,24 +58,41 @@ public class PracticeProblem {
 		//Write question 5 code here
 		Scanner in = new Scanner(System.in);
 		System.out.print("In: ");
-		String c;
-		c = in.nextLine();
-		char words;
-		words = "Hello World";
-		Boolean flag;
-		flag = 
-		System.out.print()
+		String words;
+		words = in.nextLine();
+		System.out.print("Hello World".equals(words));
+		System.out.println();
 		
 	}
 
 	public static void q6() {
 		//Write question 6 code here
-		
+		Scanner in = new Scanner(System.in);
+		System.out.print("In: ");
+		int num3;
+		num3 = in.nextInt();
+		in.nextLine();
+		System.out.print("In: ");
+		int num4;
+		num4 = in.nextInt();
+		in.nextLine();
+		System.out.print(num3 <= num4);
+		System.out.println();
 	}
 
 	public static void q7() {
 		//Write question 7 code here
-		
+		Scanner in = new Scanner(System.in);
+		System.out.print("In: ");
+		Double num5;
+		num5 = in.nextDouble();
+		in.nextLine();
+		System.out.print("In: ");
+		Double num6;
+		num6 = in.nextDouble();
+		in.nextLine();
+		System.out.print(num5 > num6);
+		System.out.println();
 	}
 
 }

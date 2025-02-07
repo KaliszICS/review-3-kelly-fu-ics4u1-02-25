@@ -86,7 +86,7 @@ public class PracticeProblem {
 		System.out.print("In: ");
 		Double num5;
 		num5 = in.nextDouble();
-		
+		in.nextLine();
 		System.out.print("In: ");
 		Double num6;
 		num6 = in.nextDouble();
